@@ -1,0 +1,13 @@
+---
+# vars file for moqaddas.ec2_create_ins
+
+
+key_name: 2021_key
+instance_type: t2.micro
+image_id: ami-08e0ca9924195beba
+master_count: 1
+worker_count: 2
+region: ap-south-1
+vpc_subnet_id: subnet-a96175c1
+tag_master: {"Name": "Master Node"}
+tag_worker: {"Name": "Worker Node"}
